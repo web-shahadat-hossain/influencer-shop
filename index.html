@@ -7,22 +7,62 @@
     <title>Influencer Shop</title>
     <!----------CSS External Link------------->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/device-breakpoint.css">
 
     <!----------Font Awesome CDN------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!----------Google Font Family Link------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    
+
 <!-------------------------------------
      Header Section Start Now
 --------------------------------------->
 
-    <header>
+     <header> 
 
-    </header>
+            <!-----------Navbar section start---------->
+                <nav>
+                    <div class="nav-logo">
+                        <h2>Influencer Shop</h2>
+                    </div>
+                    <input type="checkbox" id="nav-toggle">
+                    <label for="nav-toggle" class="nav-icon">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <div class="navigation">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">Log In</a></li>
+                            <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                </nav> 
+
+            <!-----------banner section start---------->
+            <div class="banner-section">
+                    <div class="banner_info">
+                        <h1>The Best Digital Cameras  for 2022</h1>
+                        <p>Want better photos than your phone can provide? We test and rate  cameras,<br> ranging from pocket-friendly  to high-end medium format systems.</p>
+                        <button class="btn">Buy Now <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="banner-image">
+                        <img src="images/main-camera.png">
+                    </div>
+                </div>
+            
+    </header> 
 
 <!-------------------------------------
      Header Section end Now
@@ -33,8 +73,264 @@
 --------------------------------------->
 
     <main>
-        
-    </main>
+
+        <!------- ecommerce logo ----->
+            <div class="ecommerce-logo">
+                <div class="alibaba">
+                    <img src="logos/Alibaba.svg">
+                </div>
+                <div class="amazon">
+                    <img src="logos/Amazon.svg">
+                </div>
+                <div class="daraz">
+                    <img src="logos/Daraz.pk Logo.svg">
+                </div>
+                <div class="ebay">
+                    <img src="logos/Ebay.svg">
+                </div>
+                <div class="rakuten">
+                    <img src="logos/Rakuten.svg">
+                </div>
+                <div class="target">
+                    <img src="logos/Target.svg">
+                </div>
+                <div class="walmart">
+                    <img src="logos/Walmart.svg">
+                </div>
+            </div>
+
+
+        <!-- Popular Collection -->
+            <div class="popular-callection">
+                <h2>Popular Collection</h2>
+                <div class="popular-products">
+
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/tripod.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>Flex Tripod</h3>
+                            <h5>$50.00 &nbsp;<del>$100.00</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    4.99
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/mic.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>microphone</h3>
+                            <h5>$150.20 &nbsp;<del>$300.20</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    5.00
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/airpod.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>Airbuds</h3>
+                            <h5>$100.00 &nbsp;<del>$220.00</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    4.44
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/drone.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>Drone</h3>
+                            <h5>$850.00 &nbsp;<del>$1000.00</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    4.99
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/lights.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>Flex Tripod</h3>
+                            <h5>$1050.00 &nbsp;<del>$1500.00</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    5.00
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/setup.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>Photoshoot set</h3>
+                            <h5>$700.00 &nbsp;<del>$1000.00</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    4.88
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/camera.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>Vlogging Camera</h3>
+                            <h5>$1500.00 &nbsp;<del>$2000.00</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    5.00
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/single-light.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>Green Screen</h3>
+                            <h5>$30.00 &nbsp;<del>$40.00</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    4.99
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="proudct-images">
+                            <img src="images/action.png">
+                        </div>
+                        <div class="product-info">
+                            <h3>Action Camera</h3>
+                            <h5>$45.00 &nbsp;<del>$80.00</del></h5>
+                            <div class="product-rating">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="ratting-ponit">
+                                    4.88
+                                </span>
+                            </div>
+                            <p>Free Shipping<br> 10-Day Buyer Protection<br>Money back guarantee</p>
+                        </div>
+                    </div>
+                  
+                </div>
+               <div class="see-more">
+                <p >See More <i class="fas fa-arrow-right"></i></p>
+               </div>
+            </div>
+
+        <!----------blog section----------->
+            <div class="blog-section">
+                <h2>Blog Posts</h2>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="blog-title">
+                            <h3>A great camera, a world-class camera</h3>
+                            <h6><span> <i class="far fa-clock"></i>&nbsp; JAN 15, 2022</span>&nbsp;&nbsp;&nbsp;  <span><i class="far fa-user"></i>&nbsp; Shahadat Hossain</span></h6>
+                        </div>
+                        <div class="blog-img">
+                            <img src="images/blog-img.png">
+                        </div>
+                        <div class="blog-info">
+                            <p>Leica has historically been known for Rangefinder-style cameras but has moved away in recent years. But if there's one thing the company should do away with the <span>new L11</span>, it's sticking to what it likes.</p>
+
+                            <span class="see_more">See More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+    </main> 
 
 <!-------------------------------------
     Main Section end Now
@@ -44,8 +340,16 @@
      Footer Section Start Now
 --------------------------------------->
 
-    <footer>
-        
+    <footer class="footer-section">
+        <h2>Influencer Shop</h2>
+        <h3>Copyright &copy; 2022 influencer Shop</h3>
+        <h5>Follow Me</h5>
+        <div class="social-icon">
+            <a href="https://www.facebook.com/FreelancerShahadatHossain/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/developershahadat/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/developer-sahadat/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/developer-sahadat/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
     </footer>
 
 <!-------------------------------------
