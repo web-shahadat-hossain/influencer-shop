@@ -34,6 +34,10 @@ body {
 
 
 /*_________________Header Section Start Now__________________*/
+header {
+    margin-bottom: 100px;
+
+}
 
 /*-------Navbar section start------*/
 nav {
@@ -89,24 +93,22 @@ nav {
 }
 
 
-
 /*-------Banner section start------*/
 .banner-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .banner_info {
     width: 50%;
-    padding-left: 80px;
 }
 
 .banner_info h1 {
     font-weight: bold;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 70px;
     color: #3A3A3A;
     padding-bottom: 10px;
@@ -118,14 +120,16 @@ nav {
     line-height: 24px;
     color: #3A3A3A;
     padding-bottom: 22px;
+    text-align: justify;
 }
 
 .btn i {
-    padding-left: 8px;
+    padding-left: 28px;
 }
 
 .banner-image {
     width: 50%;
+    padding-left: 100px;
 
 }
 
