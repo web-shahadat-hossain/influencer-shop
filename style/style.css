@@ -129,14 +129,12 @@ nav {
 .banner-image {
     width: 50%;
     padding-left: 100px;
-    z-index: 1;
 
 }
 
 .banner-image img {
     width: 440px;
     height: 414px;
-    z-index: 100;
 }
 
 /*_________________Header Section end Now__________________*/
