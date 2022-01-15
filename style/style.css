@@ -25,9 +25,8 @@ body {
 }
 
 .btn:hover {
-    transform: scale(1.1);
-    background-color: #e02c6edc;
-    box-shadow: 2px 3px 20px #df7fa2e5;
+    transform: scale(1.1) skewX(10deg);
+    box-shadow: 1px 1px 20px #f599b0e5;
 }
 
 
@@ -36,7 +35,6 @@ body {
 /*_________________Header Section Start Now__________________*/
 header {
     margin-bottom: 100px;
-
 }
 
 /*-------Navbar section start------*/
@@ -104,6 +102,7 @@ nav {
 
 .banner_info {
     width: 50%;
+    padding-left: 30px;
 }
 
 .banner_info h1 {
@@ -124,21 +123,21 @@ nav {
 }
 
 .btn i {
-    padding-left: 28px;
+    padding-left: 5px;
 }
 
 .banner-image {
     width: 50%;
     padding-left: 100px;
+    z-index: 1;
 
 }
 
 .banner-image img {
     width: 440px;
     height: 414px;
+    z-index: 100;
 }
-
-
 
 /*_________________Header Section end Now__________________*/
 
@@ -186,11 +185,17 @@ nav {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding: 15px 20px;
+    cursor: pointer;
+}
+
+.product:hover .proudct-images img {
+    transform: scale(1.1);
 }
 
 .proudct-images img {
     width: 300px;
     height: 256px;
+    transition: transform 1s ease-in-out;
 }
 
 .product-info h3 {

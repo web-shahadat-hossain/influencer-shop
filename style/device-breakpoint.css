@@ -1,11 +1,10 @@
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width:1250px) {
     .popular-products {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (max-width:1076px) {
     .banner-section {
         width: 100%;
@@ -25,7 +24,7 @@
 }
 
 
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (max-width: 900px) {
     .banner-section {
         flex-direction: column;
@@ -56,7 +55,7 @@
     }
 }
 
-/* Medium devices (landscape tablets, 778px and up) */
+
 @media only screen and (max-width: 816px) {
 
     .nav-icon {
@@ -100,7 +99,7 @@
 
 }
 
-/* Medium devices (landscape tablets, 712px and up) */
+
 @media only screen and (max-width: 816px) {
     .popular-products {
         display: grid;
@@ -111,7 +110,7 @@
     }
 }
 
-/* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
     nav {
         text-align: center;
