@@ -4,16 +4,7 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-
-    /* .popular-products {
-        width: 50%;
-        margin: 0 100px;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:
-            10px;
-    } */
-}
+@media only screen and (max-width: 768px) {}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
